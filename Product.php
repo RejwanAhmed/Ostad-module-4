@@ -16,7 +16,7 @@ class Product {
 
     public function showDetails() {
         // printf( "ID: %d \nName: %s\nPrice: $%.2f", $this->id, $this->name, $this->getFormattedPrice() );
-
+        echo "Product Details: \n";
         echo "ID: {$this->id}\nName: {$this->name}\nPrice: \${$this->getFormattedPrice()}";
     }
 }
